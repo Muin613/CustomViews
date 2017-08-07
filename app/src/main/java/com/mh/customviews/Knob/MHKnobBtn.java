@@ -205,14 +205,14 @@ public class MHKnobBtn extends View {
         float titleWidth = titlePaint.measureText(title);
         canvas.drawText(title, (width - titleWidth) / 2, dialRadius * 2 + dp2px(15), titlePaint);
 
-        // 绘制最小温度标识
-        // 最小温度如果小于10，显示为0x
+        // 绘制最小Degree标识
+        // 最小Degree如果小于10，显示为0x
         String minTempFlag = minDegree < 10 ? "0" + minDegree : minDegree + "";
         float tempFlagWidth = titlePaint.measureText(maxDegree + "");
         canvas.rotate(55, width / 2, height / 2);
         canvas.drawText(minTempFlag, (width - tempFlagWidth) / 2, height + dp2px(5), knobFlagPaint);
 
-        // 绘制最大温度标识
+        // 绘制最大Degree标识
         canvas.rotate(-105, width / 2, height / 2);
         canvas.drawText(maxDegree + "", (width - tempFlagWidth) / 2, height + dp2px(5), knobFlagPaint);
         canvas.restore();
@@ -388,9 +388,9 @@ public class MHKnobBtn extends View {
     }
 
     /**
-     * 设置温度
+     * 设置Degree
      *
-     * @param temp 设置的温度
+     * @param temp 设置的Degree
      */
     public void setTemp(int temp) {
         setTemp(minDegree, maxDegree, temp);
@@ -399,9 +399,9 @@ public class MHKnobBtn extends View {
     /**
      * 设置温度
      *
-     * @param minTemp 最小温度
-     * @param maxTemp 最大温度
-     * @param temp    设置的温度
+     * @param minTemp 最小Degree
+     * @param maxTemp 最大Degree
+     * @param temp    设置的Degree
      */
     public void setTemp(int minTemp, int maxTemp, int temp) {
         this.minDegree = minTemp;
