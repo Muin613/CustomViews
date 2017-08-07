@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--自定义圆弧view-->
+
+    <declare-styleable name="Circle">
+        <attr name="circle_color" format="color"></attr>
+        <attr name="circle_text_size" format="dimension"></attr>
+    </declare-styleable>
+
+
+    <!--首页渐变控件-->
+    <attr name="icon" format="reference" />
+    <attr name="color" format="color" />
+    <attr name="text" format="string" />
+    <attr name="text_size" format="dimension" />
+    <attr name="script_text" format="string"/>
+    <attr name="script_color" format="color"/>
+    <attr name="script_text_size" format="dimension"/>
+
+    <declare-styleable name="ChangeColorIconView">
+        <attr name="icon" />
+        <attr name="color" />
+        <attr name="text" />
+        <attr name="text_size" />
+        <attr name="script_color"/>
+    </declare-styleable>
+</resources>
