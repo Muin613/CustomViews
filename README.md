@@ -16,4 +16,5 @@ mhchangenumview
 
 
 下图为mhpiechart的样图
-https://github.com/Muin613/CustomViews/blob/master/app/src/assets/mhcustomview.gif
+![image](https://github.com/Muin613/CustomViews/blob/master/app/src/assets/mhcustomview.gif )   
+
