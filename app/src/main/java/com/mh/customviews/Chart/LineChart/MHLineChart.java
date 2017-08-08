@@ -107,7 +107,7 @@ public class MHLineChart extends View {
         float[] pts = {LEFTUPX, LEFTUPY - 20, LEFTUPX, LEFTDOWNY, LEFTUPX, LEFTDOWNY, RIGHTDOWNX + 20, LEFTDOWNY};
         // 画线
         canvas.drawLines(pts, getPaint());
-        System.out.println("你还在画？");
+
         /**
          * 箭头
          */
@@ -248,7 +248,6 @@ public class MHLineChart extends View {
             float xv = bean.getXValue();
             float yv = bean.getYValue();
             data.get(i).setX(LEFTUPX + (xv * LEFTRIGHTSPACE)).setY((LEFTDOWNY - yv * UPDOWNSPACE));
-            System.out.println(data.get(i).getX() + "  " + data.get(i).getY());
         }
         isOne = true;
         number = 1;
