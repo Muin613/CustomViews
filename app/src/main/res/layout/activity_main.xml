@@ -6,11 +6,18 @@
     android:layout_height="match_parent"
     tools:context="com.mh.customviews.MainActivity">
 
-    <com.mh.customviews.Chart.MHPieChart
+    <com.mh.customviews.Chart.PieChart.MHPieChart
         android:id="@+id/text"
         android:layout_width="500px"
         android:layout_centerInParent="true"
         android:layout_height="500px"
+        android:visibility="gone"
        />
+    <com.mh.customviews.Chart.LineChart.MHLineChart
+        android:layout_width="match_parent"
+        android:id="@+id/lineChart"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:layout_height="match_parent" />
 
 </RelativeLayout>
