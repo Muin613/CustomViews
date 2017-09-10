@@ -31,4 +31,12 @@
         <attr name="text_size" />
         <attr name="script_color"/>
     </declare-styleable>
+
+
+    <declare-styleable name="ICodeView1">
+        <attr name="i_code_width" format="dimension"/>
+        <attr name="i_code_height" format="dimension"/>
+        <attr name="i_code_deviation" format="dimension"/>
+    </declare-styleable>
+
 </resources>

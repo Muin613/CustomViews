@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mh="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.mh.customviews.ICode.MHICodeView1
+        android:id="@+id/codeview"
+        android:layout_width="match_parent"
+        android:layout_height="550px"
+        mh:i_code_deviation="30px"
+        android:scaleType="centerCrop"
+        mh:i_code_height="100px"
+
+        mh:i_code_width="100px" />
+
+    <SeekBar
+        android:id="@+id/seek"
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:background="#ffff00"
+        android:thumb="@mipmap/ic_launcher_round" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100px"
+        android:onClick="change"
+        android:text="change" />
+</LinearLayout>

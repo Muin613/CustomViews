@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         lineChart = (MHLineChart) findViewById(R.id.lineChart);
 
        showPieChart();
-
+//showLineChart();
 
     }
 
