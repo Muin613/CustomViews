@@ -28,3 +28,7 @@ mhchangenumview
 ICodeView1样图
 ![image](https://github.com/Muin613/CustomViews/blob/master/app/src/assets/icode.gif)   
 
+
+MHLineChart样图
+![image](https://github.com/Muin613/CustomViews/blob/master/app/src/assets/linechart.gif)
+
