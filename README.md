@@ -2,6 +2,12 @@
 mhpiechart
 是一个有初始动画的piechart且该piechart的各项饼图可点击
 
+mhlinechart
+是一个有初始动画的linechart；
+
+mhicodeview1
+是一个验证妈view
+
 mhknob
 是一个旋钮，类似生活日常用的电饭煲、微波炉、电风扇的旋钮
 
