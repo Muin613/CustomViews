@@ -19,7 +19,7 @@ import java.util.List;
  * Created by Administrator on 2017/9/25.
  */
 
-public class BannerTest extends AppCompatActivity implements IMHBannerImageLoaderListener, IMHBannerVH {
+public class BannerTestAct extends AppCompatActivity implements IMHBannerImageLoaderListener, IMHBannerVH {
     MHBanner banner;
     View view;
 
