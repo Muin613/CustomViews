@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mm="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.mh.customviews.Banner.MHBanner
+        android:layout_width="match_parent"
+        android:layout_height="500px"
+        android:id="@+id/banner"
+        mm:banner_point_normal="@drawable/mh_banner_indcator_normal"
+        mm:banner_point_selected="@drawable/mh_banner_indcator_select"
+        mm:banner_margin="50px"
+        mm:banner_loop="true"
+        mm:banner_point_visibility="true" />
+</LinearLayout>

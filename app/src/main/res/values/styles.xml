@@ -38,5 +38,13 @@
         <attr name="i_code_height" format="dimension"/>
         <attr name="i_code_deviation" format="dimension"/>
     </declare-styleable>
+    
+    <declare-styleable name="MHBanner">
+        <attr name="banner_point_visibility" format="boolean"/>
+        <attr name="banner_point_selected" format="reference"/>
+        <attr name="banner_point_normal"  format="reference"/>
+        <attr name="banner_loop" format="boolean"/>
+        <attr name="banner_margin" format="dimension"/>
+    </declare-styleable>
 
 </resources>
