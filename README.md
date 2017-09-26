@@ -24,3 +24,11 @@ mhchangenumview
 下图为mhpiechart的样图
 ![image](https://github.com/Muin613/CustomViews/blob/master/app/src/assets/mhcustomview.gif )   
 
+
+ICodeView1样图
+![image](https://github.com/Muin613/CustomViews/blob/master/app/src/assets/icode.gif)   
+
+
+MHLineChart样图
+![image](https://github.com/Muin613/CustomViews/blob/master/app/src/assets/linechart.gif)
+
