@@ -11,6 +11,7 @@ import com.mh.customviews.Banner.IMHBannerVH;
 import com.mh.customviews.Banner.MHBanner;
 import com.mh.customviews.Banner.MHBannerData;
 import com.mh.customviews.Banner.Transform.CoverModeTransformer;
+import com.mh.customviews.Banner.Transform.X3DTransformer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,7 +37,7 @@ public class BannerTestAct extends AppCompatActivity implements IMHBannerImageLo
         data.add(D2);
         data.add(D3);
         data.add(D3);
-        banner.setData(data).setLoaderListener(this).setTransform(true, new CoverModeTransformer(banner.getViewPager())).setBannerItem(this).build();
+        banner.setData(data).setLoaderListener(this).setTransform(true, new X3DTransformer()).setBannerItem(this).build();
 
     }
 

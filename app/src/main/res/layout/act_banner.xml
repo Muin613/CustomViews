@@ -7,11 +7,11 @@
 
     <com.mh.customviews.Banner.MHBanner
         android:layout_width="match_parent"
-        android:layout_height="500px"
+        android:layout_height="match_parent"
         android:id="@+id/banner"
         mm:banner_point_normal="@drawable/mh_banner_indcator_normal"
         mm:banner_point_selected="@drawable/mh_banner_indcator_select"
-        mm:banner_margin="50px"
+        mm:banner_margin="0px"
         mm:banner_loop="true"
         mm:banner_point_visibility="true" />
 </LinearLayout>
