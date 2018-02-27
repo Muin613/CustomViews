@@ -14,6 +14,7 @@ public class TextAutoUtils {
 
 
     public static void adjustTVTextSize(final TextView tv, final String text, final float minSize) {
+        tv.setText(text);
         tv.getViewTreeObserver().addOnGlobalLayoutListener(
                 new ViewTreeObserver.OnGlobalLayoutListener() {
 
