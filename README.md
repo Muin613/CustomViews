@@ -20,6 +20,9 @@ mhtab
 mhchangenumview
 是一个数字上升的textview，完全具有textview的所有属性
 
+remoteract
+是智能控件（可以实现自定义组合，智能在交互点处进行摆放，其中有个控件是能实现上下左右中点击（来源是鸿洋一个博客，并对其理解+修改+拓展（原代码不支持组合控件）））
+
 
 下图为mhpiechart的样图
 ![image](https://github.com/Muin613/CustomViews/blob/master/app/src/assets/mhcustomview.gif )   
@@ -31,4 +34,7 @@ ICodeView1样图
 
 MHLineChart样图
 ![image](https://github.com/Muin613/CustomViews/blob/master/app/src/assets/linechart.gif)
+
+mhremoterview+mhcombinexybutton+mhimagexybutton
+![image](https://github.com/Muin613/CustomViews/blob/master/app/src/main/res/drawable/20180404081122_20180404082156.gif)
 
