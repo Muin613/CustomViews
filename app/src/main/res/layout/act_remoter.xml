@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.mh.customviews.Drag.control.MHRemoterView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/remoter"
+            android:layout_weight="3" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="match_parent">
+            <com.mh.customviews.Drag.control.view.MHImageXYButton
+                android:layout_width="48dp"
+                android:src="@mipmap/svg_new_close"
+                android:layout_height="48dp"
+                app:edge_flag="true"
+                android:id="@+id/view"
+                app:x="1"
+                app:y="1" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="match_parent">
+                <com.mh.customviews.Drag.control.view.MHCombineXYButton
+                    android:layout_width="115dp"
+                    android:layout_height="115dp"
+                    app:edge="true"
+                    app:xy_x="1"
+                    app:xy_y="1"
+                    app:bottom="@color/blue"
+                    app:center="@color/green"
+                    app:left="@color/yellow"
+                    app:right="@color/red"
+                    app:top="@color/colorAccent"
+                    android:id="@+id/view1"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_height="match_parent">
+            <com.mh.customviews.Drag.control.view.MHImageXYButton
+                android:layout_width="115dp"
+                android:layout_height="115dp"
+                app:x="2"
+                android:id="@+id/view2"
+                app:edge_flag="true"
+                android:src="@mipmap/offered_cursor"
+                app:y="2" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -20,31 +20,52 @@
     <attr name="color" format="color" />
     <attr name="text" format="string" />
     <attr name="text_size" format="dimension" />
-    <attr name="script_text" format="string"/>
-    <attr name="script_color" format="color"/>
-    <attr name="script_text_size" format="dimension"/>
+    <attr name="script_text" format="string" />
+    <attr name="script_color" format="color" />
+    <attr name="script_text_size" format="dimension" />
 
     <declare-styleable name="ChangeColorIconView">
         <attr name="icon" />
         <attr name="color" />
         <attr name="text" />
         <attr name="text_size" />
-        <attr name="script_color"/>
+        <attr name="script_color" />
     </declare-styleable>
 
 
     <declare-styleable name="ICodeView1">
-        <attr name="i_code_width" format="dimension"/>
-        <attr name="i_code_height" format="dimension"/>
-        <attr name="i_code_deviation" format="dimension"/>
-    </declare-styleable>
-    
-    <declare-styleable name="MHBanner">
-        <attr name="banner_point_visibility" format="boolean"/>
-        <attr name="banner_point_selected" format="reference"/>
-        <attr name="banner_point_normal"  format="reference"/>
-        <attr name="banner_loop" format="boolean"/>
-        <attr name="banner_margin" format="dimension"/>
+        <attr name="i_code_width" format="dimension" />
+        <attr name="i_code_height" format="dimension" />
+        <attr name="i_code_deviation" format="dimension" />
     </declare-styleable>
 
+    <declare-styleable name="MHBanner">
+        <attr name="banner_point_visibility" format="boolean" />
+        <attr name="banner_point_selected" format="reference" />
+        <attr name="banner_point_normal" format="reference" />
+        <attr name="banner_loop" format="boolean" />
+        <attr name="banner_margin" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="MHImageXYButton">
+        <attr name="edge_flag" format="boolean" />
+        <attr name="x" format="integer" />
+        <attr name="y" format="integer" />
+    </declare-styleable>
+    <declare-styleable name="MHCombineXYButton">
+        <attr name="left" format="reference" />
+        <attr name="right" format="reference" />
+        <attr name="center" format="reference" />
+        <attr name="top" format="reference" />
+        <attr name="bottom" format="reference" />
+        <attr name="edge" format="boolean" />
+        <attr name="xy_x" format="integer" />
+        <attr name="xy_y" format="integer" />
+    </declare-styleable>
+    <!--进度条-->
+    <style name="my_progress_style" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/drawable_progress</item>
+        <item name="android:minHeight">5dp</item>
+        <item name="android:maxHeight">5dp</item>
+    </style>
 </resources>
